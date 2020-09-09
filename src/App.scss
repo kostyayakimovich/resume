@@ -1,0 +1,24 @@
+@import "./styles/variables.scss";
+@import "./styles/mixins.scss";
+body{
+  background: $bgColor;
+  margin: 0;
+  padding: 0;
+}
+*{
+  scroll-behavior: smooth;
+}
+.main{
+  width: 1020px;
+  margin: 0 auto;
+  color: $textColor;
+}
+ul{
+  list-style: none;
+  padding-inline-start: 0;
+}
+  @media screen and (max-width: 1019px){
+    .main{
+      width: 100%;
+    }
+  }

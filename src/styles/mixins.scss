@@ -1,0 +1,13 @@
+@import "variables";
+@mixin blockParams {
+  margin: 0 40px 20px 40px;
+    }
+@mixin skillsBlockParams {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: $hoverBlock;
+  border-radius: 5px;
+        }

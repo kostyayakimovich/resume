@@ -1,0 +1,123 @@
+@import "../../styles/mixins.scss";
+@import "../../styles/variables.scss";
+
+.skills_headline{
+  border-bottom: 1px solid $underlineColor;
+}
+.skills{
+  display:  flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+.key_skills{
+  @include skillsBlockParams;
+}
+.list_key_skills{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+.key_skills_item{
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.skills_icon{
+  width: 32px;
+  height: 32px;
+}
+.about_me{
+  @include skillsBlockParams;
+}
+.text_about{
+  padding: 0 15px;
+  text-align: justify;
+}
+.my_projects{
+  @include skillsBlockParams;
+  }
+.list_projects{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  list-style: none;
+  
+}
+.projects_item{
+  border: 1px solid $textColor;
+  margin: 10px;
+
+ a{
+  text-decoration: none;
+  color: $textColor;
+  padding-right: 5px;
+  margin: 5px;
+}
+a:hover{
+  color: #f3b58e;
+}
+a:first-child{
+  border-right: 1px solid $underlineColor;
+}
+}
+
+.contacts{
+  @include skillsBlockParams;
+}
+.contacts_block{
+  width: 100%;
+  padding: 5px 0; 
+ 
+}
+.contacts_item{
+  display: flex;
+  justify-content: space-between;  
+   border-bottom: 1px solid $textColor;
+}
+.contacts_icon{
+  width: 32px;
+  height: 32px;
+  margin: 0 60px;
+  padding-bottom:10px ;
+}
+.contacts_item_text{
+  margin: 0 60px;
+}
+
+
+@media screen and (max-width: 680px){
+  .list_projects{
+    flex-direction: column; 
+    align-items: center;
+  }
+  .contacts_icon, .contacts_item_text{
+    margin: 0 20px;
+  }
+ 
+ }
+
+ 
+@media screen and (max-width: 415px){  
+  .contacts_icon, .contacts_item_text{
+    margin: 0 5px; 
+  }
+ 
+ }
+
+ @media screen and (max-width: 374px){  
+  .contacts_item{
+    flex-direction: column;
+  } 
+ }
+ @media screen and (max-width: 319px){  
+  .contacts_item_text{
+    font-size: 0.8em;
+  } 
+  .projects_item a{
+  font-size: 0.8em;
+  }
+ }
