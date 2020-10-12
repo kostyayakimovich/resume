@@ -87,7 +87,7 @@ export const enTextAboutMe =
   `Recently finished Rolling Scopes course,
 where I received a lot of new and useful knowledge.
 During the course I studied and began to apply HTML,
-CSS, SASS. Wrote by PixelPerfect app in
+CSS, SASS. Developed app with PixelPerfect 
 according to the layout. Also studied deeply
 coreJS, set up Webpack for multi-page
 applications in pure JS, made API requests
@@ -130,4 +130,9 @@ export const myProjects = [
     link: " https://menu-ozitag.netlify.app/",
     github: "https://github.com/kostyayakimovich/task-ozitag/tree/develop"
   },
-]
+  {
+    name: "Currency_chart",
+    link: " https://exchange-rates-yakimovich.netlify.app/",
+    github: "https://github.com/kostyayakimovich/rates_boilerplate/tree/develop"
+  },
+];
