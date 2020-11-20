@@ -61,30 +61,27 @@ export const dataSkills = [
   {
     value: "MySQL",
     img: mysql
-  },
-  {
-    value: "PHP",
-    img: php
   }
 ];
 
 export const ruTextAboutMe =
-  `Недавно закончил Rolling Scopes курс,
-где получил много новых и полезных знаний.
-В течении курса изучил и начал применять HTML,
-CSS, SASS. Написал PixelPerfect приложение в
-соответствии с макетом. Также глубоко изучил
-coreJS, настраивал Webpack для многостраничного
-приложения на чистом JS, делал запросы к API 
-и обрабатывал данные, работал с библиотекой React,
-писал как классовые так и функциональные компоненты,
-работал с хуками, настраивал роутинг, использовал
-Redux и Context. Знаю основы PHP, работал с БД MySQL.
-Мне нравится решать задачи и узнавать что-то новое.
-Буду рад поработать над интересным проектом 
-в дружной команде.`
+  `В августе закончил Rolling Scopes курс,
+  где получил много новых и полезных знаний.
+  В течении курса изучил и начал применять HTML,
+  CSS, SASS. Написал PixelPerfect приложение в
+  соответствии с макетом. Также глубоко изучил
+  coreJS, настраивал Webpack для многостраничного
+  приложения на чистом JS, делал запросы к API
+  и обрабатывал данные, работал с библиотекой React,
+  писал как классовые так и функциональные компоненты,
+  работал с хуками, настраивал роутинг, использовал Redux
+  и Context. По окончании курса прошел отбор в лабораторию
+  EPAM и сейчас являюсь студентом этой лаборатории. В данный
+  момент работаю над внутренним проектом, где использую и 
+  активно изучаю Node.js. Мне нравится решать задачи и узнавать
+  что-то новое. Буду рад поработать над интересным проектом в дружной команде.`
 export const enTextAboutMe =
-  `Recently finished Rolling Scopes course,
+  `In August finished Rolling Scopes course,
 where I received a lot of new and useful knowledge.
 During the course I studied and began to apply HTML,
 CSS, SASS. Developed app with PixelPerfect 
@@ -92,9 +89,13 @@ according to the layout. Also studied deeply
 coreJS, set up Webpack for multi-page
 applications in pure JS, made API requests
 and processed data, worked with the React library,
-wrote both class and functional components,
+use both class and functional components,
 worked with hooks, set up routing, used
-Redux and Context. I know the basics of PHP, worked with a MySQL database.
+Redux and Context.  At the end of the course,
+ I passed the selection to the Epam laboratory and
+and now I am a student of this laboratory. In this
+  moment I'm working on an internal project, where I use and
+  studying Node.js. 
 I enjoy solving problems and learning new things.
 I will be glad to work on an interesting project
 in a friendly team.`
